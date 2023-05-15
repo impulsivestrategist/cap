@@ -1,7 +1,7 @@
 # cap 0.1 
 > cap: a better scrot cli screencapture utility for macOS
 
-Running 'cap' will screenshot, auto-convert from .png to .jpg, scrub EXIF metadata from the .jpg, delete the original .png, and open your screenshots folder in Finder.
+Running `cap` will screenshot, auto-convert from .png to .jpg, scrub EXIF metadata from the .jpg, delete the original .png, and open your screenshots folder in Finder.
 
 Default Mac screenshots have ridiculous file sizes (4-9 MB). This conversion drastically reduces file size (~75%).
 
@@ -9,7 +9,7 @@ This makes sharing to 4chan (max 4 MB upload), Discord (max 8 MB), and other pla
 There is no visual difference in image quality after conversion.
 
 #### Dependencies:
-Install 'imagemagick' and 'exiftool' via brew. These are free and open-source packages you'll find useful outside of the context of cap as well.
+Install `imagemagick` and `exiftool` via brew. These are free and open-source packages you'll find useful outside of the context of cap as well.
 Remove '.txt' from this file and make it executable with 'chmod +x /path/to/cap'. Then move 'cap' to /usr/local/sbin
 
 
