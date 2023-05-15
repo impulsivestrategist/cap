@@ -17,7 +17,7 @@ Your screenshots will no longer appear on your Desktop when using the default sh
 
 
 
-`if [[ $1 == "--help" || $1 == "-h" ]]; then
+```if [[ $1 == "--help" || $1 == "-h" ]]; then
     echo "Usage: $(basename "$0") [options]"
     echo ""
     echo "Options:"
@@ -49,6 +49,6 @@ convert ~/Pictures/screenshots/*.png -set filename:base "%[basename]" ~/Pictures
 mv ~/Pictures/screenshots/*.png ~/.Trash/
 
 exiftool -q -q -all= ~/Pictures/screenshots/*
-rm ~/Pictures/screenshots/*_original`
+rm ~/Pictures/screenshots/*_original```
 
 
