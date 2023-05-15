@@ -1,5 +1,5 @@
 # cap 0.1 
-#### a better scrot cli screencapture utility for macOS
+> a better scrot cli screencapture utility for macOS
 
 Running 'cap' will screenshot, auto-convert from .png to .jpg, scrub EXIF metadata from the .jpg, delete the original .png, and open your screenshots folder in Finder.
 
