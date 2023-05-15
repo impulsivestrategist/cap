@@ -15,8 +15,6 @@ Remove '.txt' from this file and make it executable with 'chmod +x /path/to/cap'
 
 Your screenshots will no longer appear on your Desktop when using the default shortcut. To restore this, change the save location in the native Screenshot app, or run 'defaults write com.apple.screencapture location ~/Desktop'
 
-
-
 ```if [[ $1 == "--help" || $1 == "-h" ]]; then
     echo "Usage: $(basename "$0") [options]"
     echo ""
