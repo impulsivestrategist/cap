@@ -8,7 +8,7 @@ Default Mac screenshots have ridiculous file sizes (4-9 MB). This conversion dra
 This makes sharing to 4chan (max 4 MB upload), Discord (max 8 MB), and other places with size limits possible, with the added benefit of saving disk space.
 There is no visual difference in image quality after conversion.
 
-####Dependencies:
+#### Dependencies:
 Install imagemagick and exiftool via brew. These are free and open-source packages you'll find useful outside of the context of cap as well.
 Remove '.txt' from this file and make it executable with 'chmod +x /path/to/cap'. Then move 'cap' to /usr/local/sbin
 
