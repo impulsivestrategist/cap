@@ -15,7 +15,7 @@ https://github.com/impulsivestrategist/cap/assets/72365890/5c16c6d0-367b-4e0b-96
 * Your original screenshots are simply moved to the trash, not deleted. If you take a lot of screenshots, I'd advise ticking the 'Remove items from the Trash after 30 days' box in Finder preferences.
 
 ### Dependencies
-Install `imagemagick` and `exiftool` via brew. These are free and open-source packages you'll find useful outside of the context of cap as well. Eventually I'll have this in a tap and you'll be able to just run 'brew install cap' and it will automatically install these dependencies. But for now, copy the script below and save it as 'cap'. Make it executable with `chmod +x /path/to/cap`. Then move 'cap' to /usr/local/sbin. `mv /path/to/cap /usr/local/sbin`
+Install `imagemagick` and `exiftool` via brew. `brew install imagemagick exiftool` These are free and open-source packages you'll find useful outside of the context of cap as well. Eventually I'll have this in a tap and you'll be able to just run 'brew install cap' and it will automatically install these dependencies. But for now, copy the script below and save it as 'cap'. Make it executable with `chmod +x /path/to/cap`. Then move 'cap' to /usr/local/sbin. `mv /path/to/cap /usr/local/sbin`
 
 ```
 #!/bin/bash
